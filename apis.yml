@@ -1,8 +1,26 @@
 aid: getaway
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/getaway.png
 name: Getaway
-description: 'Getaway is a company surfaced as a portfolio company of cowboy-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Getaway was a consumer hospitality startup that operated a network of
+  minimalist tiny cabins ("Outposts") in nature within a couple hours'' drive of major
+  US cities, letting people book short, disconnected nature escapes. Surfaced in the
+  API Evangelist network as a portfolio company of cowboy-ventures (sector: consumer).
+  The company was acquired by Marriott International and rebranded as "Postcard Cabins"
+  under Marriott''s Outdoor Collection; the getaway.house domain now 301-redirects
+  entirely to the Marriott Postcard Cabins brand page. Getaway operates a consumer
+  booking website only and publishes no public developer portal, API, or documentation
+  surface, so this profile carries identity metadata rather than API artifacts.'
 url: https://raw.githubusercontent.com/api-evangelist/getaway/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +28,33 @@ x-backed-by:
 - cowboy-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: marriott
+x-rebranded-to: Postcard Cabins
+x-developer-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Hospitality
+- Travel
+- Vacation Rentals
+- Cabins
+- Lodging
+- Marriott
 apis: []
+common:
+- type: Website
+  url: https://www.marriott.com/brands/outdoor-collection/postcard-cabins.mi
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
