@@ -57,6 +57,11 @@ tags:
 - Marriott
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/marriott-international/
+  name: Marriott International
+  x-relationship: acquired
+  x-evidence: "The company was acquired by Marriott International and rebranded as 'Postcard Cabins' under Marriott's Outdoor Collection; the getaway."
 - type: Website
   url: https://www.marriott.com/brands/outdoor-collection/postcard-cabins.mi
 maintainers:
